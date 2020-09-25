@@ -1,0 +1,50 @@
+.cover__cover-bg {
+    background-image: url(../../../images/cover__image.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    transition: .9s;
+    width: 100%;
+    min-height: 594px;
+}
+
+.cover__cover-bg:hover {
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
+}
+
+/*768 1024*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .cover__cover-bg {
+        width: calc(100% + 96px);
+
+        margin-left: -48px;
+        box-sizing: border-box;
+        min-height: 564px;
+    }
+}
+
+/*375 768*/
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .cover__cover-bg {
+        width: calc(100% + 48px);
+
+        margin-left: -24px;
+        box-sizing: border-box;
+        min-height: 500px;
+
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/*320 375*/
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .cover__cover-bg {
+        width: calc(100% + 32px);
+        margin-left: -16px;
+        box-sizing: border-box;
+        min-height: 272px;
+        background-size: cover;
+        background-position: center;
+    }
+}

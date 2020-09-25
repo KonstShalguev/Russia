@@ -1,0 +1,25 @@
+.page__lead {
+    width: 68%;
+    margin: 0 auto;
+}
+
+/*1024 1280*/
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .page__lead {
+        width: 77%;
+    }
+}
+
+/*320 1024*/
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .page__lead {
+        width: 100%;
+    }
+}
+
+/*375 768*/
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .page__lead {
+        width: 100%;
+    }
+}

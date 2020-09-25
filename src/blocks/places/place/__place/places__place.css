@@ -1,0 +1,27 @@
+.places__place {
+    margin: 0 auto;
+    margin-bottom: 77px;
+
+    width: 68%;
+}
+
+/*1024 1280*/
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .places__place {
+        width: 77%;
+    }
+}
+
+/*768 1024*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .places__place {
+        width: 100%;
+    }
+}
+
+/*375 768*/
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .places__place {
+        width: 100%;
+    }
+}

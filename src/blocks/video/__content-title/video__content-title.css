@@ -1,0 +1,11 @@
+.video__content-title {
+    margin-top: 110px;
+    margin-bottom: 32px;
+}
+
+/*375 768*/
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .video__content-title {
+        margin-top: 125px;
+    }
+}

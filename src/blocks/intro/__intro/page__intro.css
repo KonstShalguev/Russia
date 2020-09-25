@@ -1,0 +1,31 @@
+.page__intro {
+    margin: 0 auto;
+    width: 68% 
+}
+
+/*1024 1280*/
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .page__intro {
+        width: 77%;
+    }
+}
+
+/*768 1024*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .page__intro {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .page__intro {
+        width: 100%;
+    }
+}
+
+/*320 375*/
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .page__intro {
+        width: 100%;
+    }
+}

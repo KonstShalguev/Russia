@@ -1,0 +1,20 @@
+.comments__content-subtitle {
+    margin-top: 25px;
+    margin-bottom: 63px;
+}
+
+/*375 768*/
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .comments__content-subtitle {
+        margin-top: 29px;
+        margin-bottom: 67px;
+    }
+}
+
+/*320 375*/
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .comments__content-subtitle {
+        margin-top: 23px;
+        margin-bottom: 44px;
+    }
+}

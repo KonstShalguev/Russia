@@ -1,0 +1,30 @@
+
+.header__lang {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-decoration: none;
+    margin-left: 14px;
+
+    color: #FFFFFF;  
+}
+
+/*320 375*/
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 17px;
+        margin-left: 20px;
+    }
+}
+
+/*320*/
+@media screen and (max-width: 320px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 17px;
+        margin-left: 15px;
+    }
+}
